@@ -1,0 +1,106 @@
+#header {
+    height: 70px;
+    padding-left: 15%;
+    padding-right: 15%;
+    display: flex;
+    align-items: center;
+    grid-column: 1 / span 2;
+    /* border: 1px solid black; */
+}
+
+#body {
+    margin: 0;
+    display: grid;
+    grid-template-columns: 75% 25%;
+    grid-template-rows: 10vw 30vw 10vw;
+    border: 1px solid black;
+    padding-left: 15%;
+    padding-right: 15%;
+    
+}
+
+.menu {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color:#DEB887;
+}
+
+#brand-logo {
+    color: black;
+    font-size: 30px;
+    padding-left: 10px;
+    width: 50%;
+    height: 50%;
+    text-align: left ;
+}
+
+#logo {
+    color: black;
+    font-size: 20px;
+    
+}
+
+.a{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#home-content {
+    padding-left: 15%;
+    padding-right: 15%;
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+.content1{
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid black;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    text-align: justify;
+    background-color:	#8FBC8F;
+}
+.content2{
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid black;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    text-align: justify;
+    background-color:	#8FBC8F;
+}
+.content3{
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align:justify;
+    border: 1px solid black;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    background-color:	#8FBC8F;
+}
+
+.footer {
+    padding-left: 15%;
+    padding-right: 15%;
+    display: flex;
+    align-items: center;
+    grid-column: 1 / span 2;
+    text-align: left;
+    justify-content: center;
+    /* border: 1px solid black; */
+}
+
+.footer-text {
+    width: 100%;
+    border: 1px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color:#DEB887;
+}
