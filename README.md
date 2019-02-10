@@ -1,3 +1,3 @@
 # Web Layout Challenge
 
-!(../screenshot.png)
+![Screenshot](./assets/img/screenshot.png)
