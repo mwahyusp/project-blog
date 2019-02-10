@@ -1,3 +1,3 @@
 # Web Layout Challenge
 
-![alt text](../screenshot.png)
+!(../screenshot.png)
